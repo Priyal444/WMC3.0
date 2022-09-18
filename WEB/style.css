@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    /*background-color: grey;*/
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#navbar{
+    position: relative;
+}
+
+
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 80px;
+    margin: 2px 4px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(242, 161, 211);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+
+#navbar ul li{
+
+    
+    list-style: none;
+    font-size: 1.5rem;
+    font-style:initial;
+
+}
+
+#navbar ul li a{
+    color: rgb(5, 23, 102);
+    display: block;
+    padding: 3px 22px ;
+    border-radius: 20px;
+    text-decoration: none;
+    font-style: bold;
+    
+}
+
+#navbar ul li a:hover{
+    color: rgb(228, 70, 38);
+    background-color: white;
+}
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 5px 10px;
+  
+    
+}
+#home ::before{
+    content: "";
+    background: url("https://img.freepik.com/premium-vector/planner-stickers-cartoon-characters-motivation-notes-diary-list-scrapbook-decoration-organizer-journal-words-vector-set-with-phrases-avocado-girl-sleeping-mask-badges_102902-4608.jpg?w=2000")center center/cover;
+    position:absolute;
+    height: 300%;
+    width: 200%;
+    z-index: -1;
+    opacity: 0.3;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+
+
+}
+h1{
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    color: rgb(11, 76, 141);
+    
+   
+    
+}
+.About-us {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(251, 204, 233);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+h2{
+    color: red;
+    font-size: 35px;
+    
+  }
+img {
+    border-radius: 30%;
+    height: 250px;
+    margin: 10px 75px;
+    
+  }
+  
+#content {
+    font-size: 25px;
+    background-color: rgb(247, 145, 146);
+    font-weight: 200;
+    font-style: bold;
+    
+  }
+#Us {
+    font: size 30px; ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}  
+#Course {
+    font: size 30px; ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}  
+
+
+
+
